@@ -80,18 +80,18 @@ dev_static/
 dist/css/  
 dist/images/  
 dist/js/  
-のようにディレクトリが自動的に作られassetsのファイルがそれぞれ適切なディレクトリへ入るようになっています。ちなみに現在画像の圧縮等はgulpで設定していないのでasssetsディレクトリに入れなくてもよいのですがsassでbackground等を指定する際に予測変換が出来なくなるので画像もassetsディレクトリに入れましょう。gulpで勝手にdistディレクトリに格納しますので大丈夫です。
+のようにディレクトリが自動的に作られassetsのファイルがそれぞれ適切なディレクトリへ入るようになっています。ちなみに現在画像の圧縮等はgulpで設定していないのでassetsディレクトリに入れなくてもよいのですがSassでbackground等を指定する際に予測変換が出来なくなるので画像もassetsディレクトリに入れましょう。gulpで勝手にdistディレクトリに格納しますので大丈夫です。
 
 ## 実際に使用するファイル
 ### HTML
 src下にどんどん追加して構いません。  
-画像のURL指定はdist/images/にしましょう。  
+画像のURL指定はassets/images/にしましょう。  
 
 ### CSS
 assets/sass/style.scssにcssの記述を行ってください。  
 Sassの記述が分からなくても.scss拡張子なら通常のCSSをちゃんと認識してくれます。  
 少しずつSassの記述を覚えていって、効率的にCSSを書ければと思います。  
-ちなみにstyle.scssはgulp watchしていないと自動コンパイルしてくれませんのでそれを忘れないように。コンパイルされたCSSはassets/css/style.cssに格納されています。  
+ちなみにstyle.scssはgulp watchしていないと自動コンパイルしてくれませんのでそれを忘れないように。コンパイルされたCSSはdist/css/とassets/css/にstyle.cssとして格納されるよう設定しています。  
 確認用にご活用ください。
 
 ### JavaScript
