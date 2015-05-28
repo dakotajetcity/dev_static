@@ -1,0 +1,89 @@
+@charset "utf-8";
+/*! style.css start */
+/*! 共通レイアウト設定
+*/
+/* クリアフィックス
+   ※IE6/7非対応。詳細は以下URL↓
+   http://kojika17.com/2013/06/clearfix-2013.html
+*/
+%cf:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+// メインフォント
+$base_font: "メイリオ", "Meiryo", verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
+
+// ベースフォントサイズ
+$base_font-size: 14px;
+
+// ベースフォントカラー
+$base_font-color1: #333333;
+$base_font_color2: #666666;
+
+// ベーステキストリンクカラー
+$base_link-color1: #0088CC;
+$base_link_color2: #0088CC;
+
+// ベースボーダーカラー
+$base_brdr-color1: #CCCCCC;
+$base_brdr-color2: #CDCDCD;
+
+// ベースバックグラウンド
+$base_bg1: #FFFFFF;
+$base_bg2: #FFFFFF;
+
+// ベース幅
+$base_width1: 960px;
+$base_width2: 960px;
+
+html {
+    margin: 0;
+    padding: 0;
+    background: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $base_font;
+}
+h1, h2, h3, h4, h5, h6, p, a {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: $base_font-color1;
+  font-weight: normal;
+  text-decoration: none;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+img {
+  vertical-align: bottom;    // ブラウザによるイメージの高さの差異を同じにする
+  border: 0px;    // IE対策 ※aタグに画像があるとボーダー表示する仕様の対策
+}
+small {
+  font-size: $base_font-size;
+}
+
+/* コンテンツネーム
+------------------------------------ */
+// 詳細コメント等
+
+/* コンテンツネーム
+------------------------------------ */
+
+/* コンテンツネーム
+------------------------------------ */
+
+/* コンテンツネーム
+------------------------------------ */
+
+/* コンテンツネーム
+------------------------------------ */

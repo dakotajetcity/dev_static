@@ -1,0 +1,43 @@
+{
+  "name": "BowerTemplateStatic",
+  "version": "0.0.0",
+  "authors": [
+    "test"
+  ],
+  "description": "test",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "imagesloaded": "~3.1.8",
+    "jquery": "~2.1.4",
+    "normalize-css": "~3.0.3",
+    "jquery-color": "~2.1.2",
+    "jquery.lazyload": "~1.9.5"
+  },
+  "overrides": {
+    "jquery": {
+      "main": "**/jquery.min.js"
+    },
+    "jquery-color": {
+      "main": "**/jquery.color.js"
+    },
+    "jquery.lazyload": {
+      "main": "**/jquery.lazyload.js"
+    },
+    "imagesloaded": {
+      "main": "**/*.pkgd.min.js"
+    },
+    "eventEmitter": {
+      "ignore": "true"
+    },
+    "eventie": {
+      "ignore": "true"
+    }
+  }
+}
