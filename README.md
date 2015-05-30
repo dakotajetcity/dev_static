@@ -4,6 +4,7 @@ bowerやgulpの設定ファイルをまとめた制作環境構築テンプレ�
 # 前提条件
 - node.js
 - Ruby
+- Sass
 - bowerのグローバルインストール
 - gulpのグローバルインストール
 
